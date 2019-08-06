@@ -1,6 +1,6 @@
 {
   "name": "sencha-react-scripts",
-  "version": "3.0.1",
+  "version": "1.0.0",
   "description": "Configuration and scripts for Create React App with Ext Web Components.",
   "repository": {
     "type": "git",
