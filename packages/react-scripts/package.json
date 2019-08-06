@@ -1,10 +1,10 @@
 {
-  "name": "react-scripts",
-  "version": "3.0.1",
-  "description": "Configuration and scripts for Create React App.",
+  "name": "sencha-react-scripts",
+  "version": "1.0.0",
+  "description": "Configuration and scripts for Create React App with Ext Web Components.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
+    "url": "https://github.com/sencha/create-react-app.git",
     "directory": "packages/react-scripts"
   },
   "license": "MIT",
@@ -12,7 +12,7 @@
     "node": ">=8.10"
   },
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/sencha/create-react-app/issues"
   },
   "files": [
     "bin",
@@ -29,9 +29,15 @@
   "types": "./lib/react-app.d.ts",
   "dependencies": {
     "@babel/core": "7.4.3",
+    "@sencha/ext": "^7.0.0",
+    "@sencha/ext-modern": "^7.0.0",
+    "@sencha/ext-modern-theme-material": "^7.0.0",
+    "@sencha/ext-web-components": "^7.0.0",
+    "@sencha/ext-webpack-plugin": "^7.0.0",
     "@svgr/webpack": "4.3.1",
     "@typescript-eslint/eslint-plugin": "1.13.0",
     "@typescript-eslint/parser": "1.13.0",
+    "@webcomponents/webcomponentsjs": "^2.2.10",
     "babel-eslint": "10.0.2",
     "babel-jest": "^24.8.0",
     "babel-loader": "8.0.5",
@@ -39,6 +45,7 @@
     "babel-preset-react-app": "^9.0.0",
     "camelcase": "^5.2.0",
     "case-sensitive-paths-webpack-plugin": "2.2.0",
+    "copy-webpack-plugin": "^5.0.4",
     "css-loader": "2.1.1",
     "dotenv": "6.2.0",
     "dotenv-expand": "4.2.0",
